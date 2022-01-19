@@ -1,5 +1,9 @@
 # Author RTS 1/10/22
-def funct(lst):
-    for i, v in enumerate(lst):
-        lst[i] = 2 * v
-    return lst
+
+def even_number(list):
+    for i, v in enumerate(list):
+        if i % 2 == 0:
+            print(v)
+            
+
+even_number([1, 2, 3, 4, 5])
